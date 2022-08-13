@@ -10,7 +10,7 @@ galSel.classList.add("gallery__item");
 const imagesMap = galleryItems
   .map(
     (technology) =>
-      `<a class="gallery__link" href="${technology.original}"><img class="gallery__image" src=${technology.preview} data-source=${technology.original} alt=${technology.description}></img></a>`
+      `<a class="gallery__link" href="${technology.original}"><img class="gallery__image" src=${technology.preview} data-source=${technology.original} alt="${technology.description}"></img></a>`
   )
   .join("");
 
